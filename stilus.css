@@ -37,7 +37,25 @@ nav {
     padding: 5px 50px 5px 0px;
 }
 
-ul {
+.kartyak {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    font-size: 110%;
+}
+
+article ul {
+    list-style: square;
+    font-size: 110%;
+}
+
+.kartya {
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+nav ul {
     list-style: none;
 }
 
