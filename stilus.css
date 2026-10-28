@@ -53,6 +53,11 @@ article ul {
     border: 2px solid black;
     margin: 5px;
     border-radius: 20px;
+    background-color: rgb(56, 62, 71);
+}
+
+.kartya p {
+    padding: 5px;
 }
 
 nav ul {
