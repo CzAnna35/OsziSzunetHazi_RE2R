@@ -95,6 +95,14 @@ nav ul li a:hover {
     font-size: 145%;
 }
 
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(56, 62, 71);
+}
+
 footer {
     color: rgb(182, 198, 211);
     font-size: 105%;
