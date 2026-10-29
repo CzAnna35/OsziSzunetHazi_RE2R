@@ -14,7 +14,7 @@ main {
 h1 {
     font-size: 260%;
     color: rgb(182, 198, 211);
-    text-shadow: -2px 0px 0px black, 0px -2px 0px black, 2px 0px 0px black, 0px 2px 0px black;
+    text-shadow: -2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, 2px 2px 0px black;
 }
 
 h2{
