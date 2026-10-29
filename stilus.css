@@ -1,5 +1,6 @@
 html {
     background-image: url(kepek/hatter.jpg);
+    background-attachment: fixed;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: auto;
 }
