@@ -107,7 +107,10 @@ nav ul li a:hover {
 
 footer {
     color: rgb(182, 198, 211);
-    font-size: 105%;
+    font-size: 120%;
+    p {
+        text-shadow: -2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, 2px 2px 0px black;
+    }
 }
 
 @media screen and (max-width: 1200px) {
