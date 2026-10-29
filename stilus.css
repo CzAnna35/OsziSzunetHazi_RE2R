@@ -3,6 +3,7 @@ html {
     background-attachment: fixed;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: auto;
+    background-position: center;
 }
 
 main {
@@ -106,4 +107,25 @@ nav ul li a:hover {
 footer {
     color: rgb(182, 198, 211);
     font-size: 105%;
+}
+
+@media screen and (max-width: 1200px) {
+    .kartyak {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    nav ul {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .kartyak {
+        grid-template-columns: 1fr;
+    }
+    nav ul {
+        grid-template-columns: 1fr;
+    }
 }
